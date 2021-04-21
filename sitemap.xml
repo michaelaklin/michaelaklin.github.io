@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/climate-change/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/news/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/news/2021-04-21/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/news/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/central-bank/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
@@ -14,25 +29,16 @@
     <loc>/tags/inequality/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/news/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/news/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/renewable-energy/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/news/2021-02-13-copy/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/news/2021-02-13/</loc>
     <lastmod>2021-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/carbon-pricing/</loc>
-    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/climate-change/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/news/2020-10-29/</loc>
