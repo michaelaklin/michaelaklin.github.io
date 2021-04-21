@@ -1,0 +1,18 @@
+---
+title: "Two posts on off-grid electricity"
+author: "Michaël Aklin"
+date: 2018-11-27T00:00:00
+tags: ["Off-grid", "Energy", "Energy poverty"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+I wrote two posts for _Power for All_. They draw on new data from IRENA on off-grid renewable electricity capacity in emerging and developing countries. In short, these data show (a) that capacity has increased substantially over the last 10 years, (b) not all developing countries benefitted from it, and (c) the most successful countries seem to be mid-income ones. 
+
+See here:
+
+[Middle-Income Countries Big Winner from Off-Grid Energy. Who’s Next?](https://www.powerforall.org/insights/middle-income-countries-big-winner-grid-energy-whos-next), Power for All, November 22, 2018.<br/>
+
+[Six Nuclear Reactors Worth of Off-Grid Renewable Energy Deployed in Last 10 Years – But Sub-Saharan Africa Lagging](https://www.powerforall.org/insights/africa/six-nuclear-reactors-worth-of-grid-renewable-energy-deployed-last-10-years-sub-saharan-africa-lagging), Power for All, November 20, 2018.<br/>

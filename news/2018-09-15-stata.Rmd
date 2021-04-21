@@ -1,0 +1,61 @@
+---
+title: "Type S and Type M errors in Stata: New .ado file"
+author: "Michaël Aklin"
+date: 2018-09-15T00:00:00
+tags: ["Stata", "Inference"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+<!-- The following enables latex -->
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+_P_ values are notoriously [unreliable](https://www.nature.com/news/scientific-method-statistical-errors-1.14700). We can quickly fell prey to statistically significant estimates. To overcome this, one approach has been to either abandon them altogether or require much harsher significance levels [(Benjamin et al. 2018)](https://www.nature.com/articles/s41562-017-0189-z). 
+
+Another approach has been to use additional statistics to evaluate the reliability of our findings. If you want to stay in the hypothesis testing framework (and its coarse significant vs. non-significant results), then it is particularly important not to be mislead by a particular finding. This is where [Gelman and Carlin (2014)](http://journals.sagepub.com/doi/pdf/10.1177/1745691614551642) (see also earlier papers) come in. Their paper offers a great introduction to two related concepts: _Type S_ ('sign') and _Type M_ ('magnitude') errors.  Type S errors are the probability of getting the wrong sign, conditional on getting significant (or insignifant) results. This is a pretty revealing test: given that I obtained a _p_ value below, say, 0.05, what is the likelihood that I obtained an estimate on the wrong side of the null hypothesis? This is what Type S errors tell us.
+
+Gelman and Carlin included the code to compute these quantities in R. I did the same for Stata with a function that is called ```retrodesign```, including a few additional quantities of interest that they mentioned in the article. You can find the .ado and the .sthlp files [here](https://github.com/michaelaklin/retrodesign). The link explains how to install and use this command. It's pretty straightforward. For instance, if the expected effect is 1 ($\delta=1$) and its standard error is 4, then you would type:
+
+```
+retrodesign, delta(1) s(4)
+```
+
+The output would be:
+```
+. retrodesign, delta(1) s(4)
+________________________________________________
+               INPUT
+
+delta:             1.000
+S.d.:              4.000
+alpha:              0.05
+Simulations:       10000
+Deg. of freedom:  99999999
+
+________________________________________________
+               OUTPUT
+
+Statistically insignificant (at alpha=.05 level):
+
+Pr(Correct sign and insignificant):     0.555
+Pr(Wrong sign and insignificant):       0.388
+Type S (%) (when insignificant):        41.13
+
+Statistically significant (at alpha=.05 level):
+
+Pr(Correct sign and significant):       0.044
+Pr(Wrong sign and significant):         0.014
+Power:                                  0.057
+Type S (%) (when significant):          23.70
+Exaggeration ratio (M):                  9.35
+
+________________________________________________
+(See Gelman and Carlin (2014) for details)
+```
+
+You can see several quantities reported besides Type S errors and Type M ratios.

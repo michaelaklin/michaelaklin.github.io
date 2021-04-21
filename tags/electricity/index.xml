@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>electricity on Michaël Aklin</title>
+    <link>/tags/electricity/</link>
+    <description>Recent content in electricity on Michaël Aklin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/electricity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New report with IISD</title>
+      <link>/news/2020-10-06-iisd/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2020-10-06-iisd/</guid>
+      <description>October 6, 2020
+IISD just published a new report on electricity subsidies in India, with a focus on Jharkhand (written by Shruti Sharma, Tom Moerenhout, and myself). We show that electricity subsidies primarily benefit households that are wealthier. The report includes several alternative targetting options to ensure a more equal and just allocation of subsidies.
+The report is available here: How to Target Residential Electricity Subsidies in India.
+Some media coverage: Prabhat Khabar, Amar Ujala, DW.</description>
+    </item>
+    
+  </channel>
+</rss>

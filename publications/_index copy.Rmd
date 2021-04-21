@@ -1,0 +1,281 @@
+---
+title: "Research"
+# The style lets h2 be underlined. Not done in CSS because it would make home page uglier.
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- <iframe src="/files/aklincv.pdf" width="100%" height="500px"></iframe> -->
+    
+<style>
+h2:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+}
+</style>
+
+```{r include=FALSE}
+# This is some R code to include the reference list from my bib library
+# See https://arxiv.org/pdf/1403.2036.pdf for all options of ReadBib and RefManageR
+
+library(RefManageR)
+
+# To remove "In"
+custom <- RefManageR:::MakeBibLaTeX()
+with(custom,
+     custom$fmtJournal <- function(s){
+       if (length(s$journaltitle)) {
+         res <- emph(cleanupLatex(s$journaltitle))
+         if (length(s$journalsubtitle))
+           res <- paste(addPeriod(res),
+                        emph(cleanupLatex(s$journalsubtitle)))
+         return(res)
+         }
+       else if (!is.null(s$journal)) {
+         emph(cleanupLatex(s$journal))
+         }
+       }
+     )
+
+
+tools::bibstyle("custom", custom)
+BibOptions(bib.style = "custom")
+
+# Old way to call the references:
+#print(bib[c("Aklinetal2018c")],.opts=list(max.names=5,check.entries= FALSE))
+
+bib= ReadBib("~/Dropbox/BibLibrary.bib", check=FALSE)
+```
+
+
+<br>
+
+## Books
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018b")],.opts=list(max.names=5,check.entries= FALSE))
+```
+[[buy](https://mitpress.mit.edu/books/escaping-energy-poverty-trap){target="_blank"}] [[review by Caitlin Robinson](https://www.tandfonline.com/doi/full/10.1080/13549839.2019.1663802){target="_blank"}] [[review by Elizabeth Chatterjee](https://www.cambridge.org/core/journals/perspectives-on-politics/article/escaping-the-energy-poverty-trap-when-and-how-governments-power-the-lives-of-the-poor-by-michael-aklin-patrick-bayer-s-p-harish-and-johannes-urpelainen-cambridge-ma-mit-press-2018-328p-9000-cloth-3500-paper/647EE43487A1855EF01F964001461261){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainen2018")],.opts=list(max.names=5,check.entries= FALSE))
+```
+[[buy](https://mitpress.mit.edu/books/renewables){target="_blank"}] [[review by _Foreign Affairs_](https://www.foreignaffairs.com/reviews/capsule-review/2018-10-16/renewables-politics-global-energy-transition){target="_blank"}] [[review by Varun Sivaram](https://link.springer.com/article/10.1057%2Fs41312-018-0046-8){target="_blank"}] [[review by Josh Busby](https://link.springer.com/epdf/10.1057/s41312-018-0064-6?author_access_token=b0uIVtcaLzlKqjqqeHARPlxOt48VBPO10Uv7D6sAgHv4ApbIOdhUVjg9RCUmYLhGqIJpz0X6O_Z8JYI_Etsdw9vOuyhCVMMBYyp0GxwwjJOwavbQ2OW36xDwn5miI5Zc6jcVZrkfV1QDICZEjXFxvQ%3D%3D){target="_blank"}] [[review by Dustin Mulvaney](https://link.springer.com/article/10.1057/s41312-018-0066-4){target="_blank"}]
+
+<br>
+
+
+## Articles
+
+#### Forthcoming
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinKernForthb")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+
+#### 2020
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("BayerAklin2020")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link (open access)](https://www.pnas.org/content/early/2020/04/01/1918128117){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataverse/eused){target="_blank"}] 
+[[coverage by _Ars Technica_](https://arstechnica.com/science/2020/04/eu-carbon-trading-market-has-reduced-emissions-despite-low-carbon-prices/){target="_blank"}] 
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainenForth2020")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S0973082619312979){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIO9UV){target="_blank"}] 
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinetalForth")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[ungated copy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3537542)]
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KBTHZH)]
+
+#### 2019
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Rosenbergetal2019")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.nature.com/articles/s41893-019-0447-3){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DRVBZY){target="_blank"}] 
+[[coverage by _The Hindu_](https://www.thehindu.com/sci-tech/electrification-in-indian-households-benefits-men-more-than-women-study/article30400757.ece)] 
+[[coverage by the _Times of India_](https://energy.economictimes.indiatimes.com/news/power/men-benefit-more-than-women-from-electrification-in-india/72962655){target="_blank"}] 
+[[coverage by _Business Standard_](https://www.business-standard.com/article/pti-stories/electrification-in-indian-households-benefits-men-more-than-women-study-119122600264_1.html){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinKern2019")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://academic.oup.com/isq/article-abstract/63/1/15/5290056){target="_blank"}] 
+[[coverage by _NPR_](http://www.npr.org/2015/11/10/454589085/the-best-laid-backup-plans){target="_blank"}]
+
+#### 2018
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinForthcoming")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+
+```
+[[link](https://www.cambridge.org/core/journals/business-and-politics/article/how-robust-is-the-renewable-energy-industry-to-political-shocks-evidence-from-the-2016-us-elections/CAE5D8F7A7FF21D86DC003B08ADB0FAE){target="_blank"}] 
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3237964){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9I106T){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018c")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S030142151830466X){target="_blank"}] 
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3220460){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JE0EVI){target="_blank"}] 
+[[short article using this new dataset in _The Print_](https://theprint.in/opinion/how-indias-impressive-electrification-compares-with-south-asian-nations/115134/){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018d")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S0140988318300690){target="_blank"}] 
+[[pre-print](https://ssrn.com/abstract=3144081){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HK7JJT){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018e")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S0301421517307292){target="_blank"}]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018f")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S0973082617301266){target="_blank"}] 
+[[pre-print](https://ssrn.com/abstract=3045139){target="_blank"}]
+
+#### 2017
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2017")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://advances.sciencemag.org/content/3/5/e1602153/tab-article-info)] 
+[[replication package](https://dataverse.harvard.edu/dataverse.xhtml?alias=indiasolar)] 
+[[coverage by _The Economist_](https://www.economist.com/news/science-and-technology/21722156-does-light-equal-enlightenment-cheap-illuminations-benefits-remote-areas-may)] 
+[[coverage by _Reuters_](http://www.reuters.com/article/us-india-solar-scale-idUSKBN18R21U)] 
+[[coverage by _Economic Times_](http://economictimes.indiatimes.com/news/politics-and-nation/no-socioeconomic-benefits-in-rural-india-after-electrification/articleshow/58737403.cms)] 
+[[coverage by the _Business Standard_](https://www.business-standard.com/article/economy-policy/no-evidence-of-socioeconomic-benefits-in-india-s-rural-communities-117051801445_1.html)] 
+[[coverage by _SciDev_](https://www.scidev.net/asia-pacific/energy/news/solar-microgrids-insufficient-improve-rural-income-alternative-power-energy.html)] 
+[[coverage by _Mashable/Yahoo_](https://www.yahoo.com/news/india-apos-rural-solar-revolution-212659846.html)]
+
+#### 2016
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklin2016")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://link.springer.com/article/10.1007/s10640-015-9893-1)] 
+[[replication package](replication/EARE2015ReplicationPackage.zip)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2016")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](https://doi.org/10.1038/nenergy.2016.170)] 
+[[replication package](https://dataverse.harvard.edu/dataverse/IndiaAccess)]
+
+#### 2015
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2015")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S0360544214013188#)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TKSFIG)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2015c")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S2214629615300128)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ANE5F6)]
+
+#### 2014
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2014")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://link.springer.com/article/10.1007/s10018-014-0076-z)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CMNU0D)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2014b")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://link.springer.com/article/10.1007/s10101-014-0146-5)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMSFUO)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainen2014b")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S1462901113002141)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainen2014")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://onlinelibrary.wiley.com/doi/10.1111/isqu.12119/abstract)] 
+[[replication package](replication/ISQ2014ReplicationPackage.zip)]
+
+#### 2013
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2013")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S092180091300181X)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MCGRF0)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainen2013c")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S095937801300054X)] 
+[[replication package](replication/GEC2013ReplicationPackage.zip)] 
+[[review in _Nature Climate Change_](http://www.nature.com/nclimate/journal/v3/n7/full/nclimate1939.html)]
+
+```{r, echo = FALSE, results="asis"}
+print(bib[c("AklinUrpelainen2013b")],.opts=list(bib.style="authoryear", max.names=5,check.entries= FALSE))
+```
+[[link](http://www.sciencedirect.com/science/article/pii/S092180091300181X)] 
+[[replication package](replication/AJPS2013ReplicationPackage.zip)]
+
+<br>
+
+## Chapters
+
+M. Aklin. "International Relations Theories and Climate Change Politics." in U. Luterbacher and D. Sprinz (eds). _Global Climate Policy_. Cambridge, MA: MIT Press, 2018.
+
+M. Aklin, E. Arias, E. Deniz, and B.P. Rosendorff. "Domestic Politics of Trade Policy." in Robert Scott and Stephen Kosslyn (eds). _Emerging Trends in the Social and Behavioral Sciences_. Hoboken, NJ: John Wiley and Sons, 2015.
+
+<br>
+
+
+## Datasets
+
+[**Global Electrification Database**](https://dataverse.harvard.edu/dataverse/electrification). This database contains new cross-national data on household electrification. The data are available for 124 non-OECD countries, going back to 1960 for some countries (and sometimes even earlier), for a total of 1,065 observations. The data cover rural, urban, and aggregate electrification rates.
+
+For more details, see:
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2018c")],.opts=list(max.names=5,check.entries= FALSE))
+```
+[[link](https://www.sciencedirect.com/science/article/pii/S030142151830466X)] [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3220460)]
+
+<br>
+
+[**ACCESS**](https://dataverse.harvard.edu/dataverse/IndiaAccess). This dataset contains survey data on energy access. In total, 8,568 households from six large, energy-poor states from northern, central and eastern India were interviewed. Project jointly conducted with [CEEW](https://www.ceew.in/).
+
+For more details, see:
+```{r, echo = FALSE, results="asis"}
+print(bib[c("Aklinetal2016")],.opts=list(max.names=5,check.entries= FALSE))
+```
+[[link](https://doi.org/10.1038/nenergy.2016.170)]
+
+<br>
+
+## Report
+
+A. Jain, S. Ray, K. Ganesan, M. Aklin, C. Cheng, and J. Urpelainen. [Access to Clean Cooking Energy and Electricity](http://www.indiaenvironmentportal.org.in/files/file/CEEW-ACCESS-Report.pdf). (2015) New Delhi: Council on Energy, Environment and Water.
+
+
+
+

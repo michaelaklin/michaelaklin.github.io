@@ -1,0 +1,18 @@
+---
+title: "New publication: How robust is the renewable energy industry to political shocks?"
+author: "Michaël Aklin"
+date: 2018-10-04T00:00:00
+tags: ["Article", "Energy"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+ 
+I just published a new article in _Business and Politics_ called "How robust is the renewable energy industry to political shocks? Evidence from the 2016 U.S. elections." Ungated link [here](https://www.cambridge.org/core/journals/business-and-politics/article/how-robust-is-the-renewable-energy-industry-to-political-shocks-evidence-from-the-2016-us-elections/CAE5D8F7A7FF21D86DC003B08ADB0FAE/share/3a45e9136917e5c09282069d2c3290940cad8a8e). 
+
+The short version: the renewable energy industry has grown a lot since the 2000s. Its development was made possible by pro-active governments, who invested in R&D, set targets, etc. The logic is similar to the infant industry argument: in the presence of market failures, some sectors need public support to expand. But is this industry now mature? Or does it still need supportive governments? The 2016 US presidential election offers a good test. Its result was a surprising event and a negative shock for the renewable energy industry. How did markets react to it? They punished stocks of renewable energy firms. But, interestingly, the election affected non-US firms much more than US-based firms. Why? My suspicion is the following: in the US, energy policy is largely in the hands of states, and many of them are reliably pro-renewables. What the White House does has only limited consequences. What the White House can do, however, is change trade policy. And I think that's ultimately what markets were concerned about, namely that trade barriers would hurt this industry. 
+
+The abstract:
+
+> Climate change mitigation relies increasingly on clean technologies such as renewable energy. Despite widespread success, further deployment of renewables has been met with resistance from voters and governments in several countries. How resilient is the renewable energy industry to adverse political events? I use the unexpected election of Donald Trump in the 2016 U.S. presidential race to study this question. As a vocal critic of renewables and a supporter of fossil fuels, his election is a plausible negative shock to the renew- able energy sector. I examine stock market data to gauge the reaction of investors. I find that renewable energy stocks were adversely affected by the election. Overall, they experienced a cumulative abnormal loss in share values of about 6 percent on average over the twenty days that followed the election. However, I find that the negative effect is concentrated among non-U.S. firms. U.S. firms, on average, emerged unscathed. Non-U.S. companies, on the other hand, lost over 14 percent of their value in the aftermath of the election. This suggests that markets are more concerned by increasing obstacles to international business than a decrease of federal support for renewables.

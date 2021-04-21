@@ -1,0 +1,27 @@
+---
+title: "Two papers out"
+author: "Michaël Aklin"
+date: 2021-02-13T00:00:00
+categories: ["News"]
+tags: ["renewable energy", "central bank", "inequality"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+February 13, 2021
+
+Two new papers came out in the last couple of weeks. 
+
+In the first, Kern, Negre, and I examine some of the side effects of central bank independence. We suspect that governments may respond to a loss of control over monetary policy (i.e. more independent central banks) with policies that are bad for inequality. 
+
+* Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality? _World Bank Policy Research Working Paper_ 9522. 
+[[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
+
+In the second paper (published in _Energy Research & Social Science_), I find that off-grid renewable has been most successful in countries with good legal systems. The reason, I believe, is that off-grid energy involves private firms (and nonprofits) much more than other facets of energy. And as we know, firms need reasonably well-functioning institutions. 
+
+* Aklin, Michaël. 2021. The Off-Grid Catch-22: Effective Institutions as a Prerequisite for the Global Deployment of Distributed Renewable Power. _Energy Research & Social Science_ 72: 101830. 
+[[link](https://www.sciencedirect.com/science/article/pii/S2214629620304059?dgcid=author)]
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3717818)] 
+

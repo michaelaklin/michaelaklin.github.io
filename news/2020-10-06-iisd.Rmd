@@ -1,0 +1,19 @@
+---
+title: "New report with IISD"
+author: "Michaël Aklin"
+date: 2020-10-06T00:00:00
+categories: ["News"]
+tags: ["electricity", "energy subsidy"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+October 6, 2020
+
+IISD just published a new report on electricity subsidies in India, with a focus on Jharkhand (written by Shruti Sharma, Tom Moerenhout, and myself). We show that electricity subsidies primarily benefit households that are wealthier. The report includes several alternative targetting options to ensure a more equal and just allocation of subsidies.
+
+The report is available here: [_How to Target Residential Electricity Subsidies in India_](https://www.iisd.org/system/files/2020-09/target-residential-electricity-subsidies-india-step-2.pdf){target="_blank"}.
+
+Some media coverage: [Prabhat Khabar](https://www.prabhatkhabar.com/state/jharkhand/ranchi/subsidy-on-electricity-bill-in-jharkhand-60-percent-of-electricity-subsidy-amount-in-rich-peoples-account-srn), [Amar Ujala](https://www.amarujala.com/india-news/not-poor-the-well-being-is-getting-the-benefit-of-electricity-subsidy), [DW](https://www.dw.com/hi/%E0%A4%AC%E0%A4%BF%E0%A4%9C%E0%A4%B2%E0%A5%80-%E0%A4%B8%E0%A4%AC%E0%A5%8D%E0%A4%B8%E0%A4%BF%E0%A4%A1%E0%A5%80-%E0%A4%95%E0%A4%BE-%E0%A4%AB%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE-%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A5%87-%E0%A4%AE%E0%A4%BF%E0%A4%B2-%E0%A4%B0%E0%A4%B9%E0%A4%BE-%E0%A4%B9%E0%A5%88/a-55168920).

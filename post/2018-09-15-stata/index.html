@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en"><head>
+    <title>Type S and Type M errors in Stata: New .ado file</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../../css/theme.css"/>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-126200481-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../../images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        Michaël Aklin
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    Associate Professor, University of Pittsburgh
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../publications/" title="Publications">Publications</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../news/" title="News">News</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../teaching/" title="Teaching">Teaching</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://github.com/michaelaklin" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://www.linkedin.com/in/micha%C3%ABl-aklin-a8b39013" target="_blank">
+                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://twitter.com/michaelaklin?lang=en" target="_blank">
+                            <i class="fab fa-twitter fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="aklin@pitt.edu" target="_blank">
+                            <i class="fas fa-at fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-2">
+        <div class="mb-3">
+            <h3 class="mb-0">Type S and Type M errors in Stata: New .ado file</h3>
+            
+            <small class="text-muted">Published September 15, 2018</small>
+        </div>
+
+        <article>
+            
+
+
+<p><em>P</em> values are notoriously <a href="https://www.nature.com/news/scientific-method-statistical-errors-1.14700">unreliable</a>. We can quickly fell prey to statistically significant estimates. To overcome this, one approach has been to either abandon them altogether or require much harsher significance levels <a href="https://www.nature.com/articles/s41562-017-0189-z">(Benjamin et al. 2018)</a>.</p>
+<p>Another approach has been to use additional statistics to evaluate the reliability of our findings. If you want to stay in the hypothesis testing framework (and its coarse significant vs. non-significant results), then it is particularly important not to be mislead by a particular finding. This is where <a href="http://journals.sagepub.com/doi/pdf/10.1177/1745691614551642">Gelman and Carlin (2014)</a> (see also earlier papers) come in. Their paper offers a great introduction to two related concepts: <em>Type S</em> (‘sign’) and <em>Type M</em> (‘magnitude’) errors. Type S errors are the probability of getting the wrong sign, conditional on getting significant (or insignifant) results. This is a pretty revealing test: given that I obtained a <em>p</em> value below, say, 0.05, what is the likelihood that I obtained an estimate on the wrong side of the null hypothesis? This is what Type S errors tell us.</p>
+<p>Gelman and Carlin included the code to compute these quantities in R. I did the same for Stata with a function that is called <code>retrodesign</code>, including a few additional quantities of interest that they mentioned in the article. You can find the .ado and the .sthlp files <a href="https://github.com/michaelaklin/retrodesign">here</a>. The link explains how to install and use this command. It’s pretty straightforward. For instance, if the expected effect is 1 (<span class="math inline">\(\delta=1\)</span>) and its standard error is 4, then you would type:</p>
+<pre><code>retrodesign, delta(1) s(4)</code></pre>
+<p>The output would be:</p>
+<pre><code>. retrodesign, delta(1) s(4)
+________________________________________________
+               INPUT
+
+delta:             1.000
+S.d.:              4.000
+alpha:              0.05
+Simulations:       10000
+Deg. of freedom:  99999999
+
+________________________________________________
+               OUTPUT
+
+Statistically insignificant (at alpha=.05 level):
+
+Pr(Correct sign and insignificant):     0.555
+Pr(Wrong sign and insignificant):       0.388
+Type S (%) (when insignificant):        41.13
+
+Statistically significant (at alpha=.05 level):
+
+Pr(Correct sign and significant):       0.044
+Pr(Wrong sign and significant):         0.014
+Power:                                  0.057
+Type S (%) (when significant):          23.70
+Exaggeration ratio (M):                  9.35
+
+________________________________________________
+(See Gelman and Carlin (2014) for details)</code></pre>
+<p>You can see several quantities reported besides Type S errors and Type M ratios.</p>
+
+        </article>
+    </div>
+
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+             
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>

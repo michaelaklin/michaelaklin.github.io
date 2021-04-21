@@ -1,0 +1,275 @@
+---
+title: "Research"
+# The style lets h2 be underlined. Not done in CSS because it would make home page uglier.
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+```{r include=FALSE}
+# This is some R code to include the reference list from my bib library
+# See https://arxiv.org/pdf/1403.2036.pdf for all options of ReadBib and RefManageR
+
+library(RefManageR)
+
+# To remove "In"
+custom <- RefManageR:::MakeBibLaTeX()
+with(custom,
+custom$fmtJournal <- function(s){
+                                if (length(s$journaltitle)) {
+                                    res <- emph(cleanupLatex(s$journaltitle))
+                                    if (length(s$journalsubtitle)) 
+                                        res <- paste(addPeriod(res), emph(cleanupLatex(s$journalsubtitle)))
+                                    return(res)
+                                }
+                                else if (!is.null(s$journal)) {
+                                    emph(cleanupLatex(s$journal))
+                                }
+})
+
+
+tools::bibstyle("custom", custom)
+BibOptions(bib.style = "custom")
+
+# Old way to call the references:
+#print(bib[c("Aklinetal2018c")],.opts=list(max.names=5,check.entries= FALSE))
+
+bib = ReadBib("~/Dropbox/BibLibrary.bib", check=FALSE)
+```
+
+## External links
+
+See also my [Google Scholar](https://scholar.google.com/citations?user=5YTiqsgAAAAJ&hl=en)
+and [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1513601) pages.
+
+<br>
+
+## Books
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2018. _Escaping the Energy Poverty Trap: When and How Governments Power the Lives of the Poor_. Cambridge, MA: MIT Press.
+[[buy](https://mitpress.mit.edu/books/escaping-energy-poverty-trap){target="_blank"}] [reviews by [Caitlin Robinson](https://www.tandfonline.com/doi/full/10.1080/13549839.2019.1663802){target="_blank"} and [Elizabeth Chatterjee](https://www.cambridge.org/core/journals/perspectives-on-politics/article/escaping-the-energy-poverty-trap-when-and-how-governments-power-the-lives-of-the-poor-by-michael-aklin-patrick-bayer-s-p-harish-and-johannes-urpelainen-cambridge-ma-mit-press-2018-328p-9000-cloth-3500-paper/647EE43487A1855EF01F964001461261){target="_blank"}]
+
+Aklin, Michaël and Johannes Urpelainen. 2018. _Renewables: The Politics of a Global Energy Transition_. Cambridge, MA: MIT Press.
+[[buy](https://mitpress.mit.edu/books/renewables){target="_blank"}] [reviews by [_Foreign Affairs_](https://www.foreignaffairs.com/reviews/capsule-review/2018-10-16/renewables-politics-global-energy-transition){target="_blank"}, [Varun Sivaram](https://link.springer.com/article/10.1057%2Fs41312-018-0046-8){target="_blank"}, [Josh Busby](https://link.springer.com/epdf/10.1057/s41312-018-0064-6?author_access_token=b0uIVtcaLzlKqjqqeHARPlxOt48VBPO10Uv7D6sAgHv4ApbIOdhUVjg9RCUmYLhGqIJpz0X6O_Z8JYI_Etsdw9vOuyhCVMMBYyp0GxwwjJOwavbQ2OW36xDwn5miI5Zc6jcVZrkfV1QDICZEjXFxvQ%3D%3D){target="_blank"}, and [Dustin Mulvaney](https://link.springer.com/article/10.1057/s41312-018-0066-4){target="_blank"}]
+
+<br>
+
+
+## Articles
+
+<!-- #### Forthcoming -->
+
+Aklin, Michaël, Julia Gray, and Eric Arias. Forthcoming. Inflation and Mass Preferences Over Currency Policy. _Economics & Politics_.
+
+
+<!-- #### 2021 -->
+
+Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality? _World Bank Policy Research Working Paper_ 9522. 
+[[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
+
+Aklin, Michaël. 2021. The Off-Grid Catch-22: Effective Institutions as a Prerequisite for the Global Deployment of Distributed Renewable Power. _Energy Research & Social Science_ 72: 101830. 
+[[link](https://www.sciencedirect.com/science/article/pii/S2214629620304059?dgcid=author)]
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3717818)] 
+[[replication package](https://github.com/michaelaklin/replicationfiles/blob/main/Aklin_ERSS_ReplicationPackage.zip)]
+
+Aklin, Michaël and Andreas Kern. 2021. The Side Effects of Central Bank Independence. _American Journal of Political Science_.
+[[link](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12580)]
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2799220)] 
+
+<!-- #### 2020 -->
+
+Aklin, Michaël and Matto Mildenberger. 2020. Prisoners of the Wrong Dilemma: Why Distributive Conflict, Not Collective Action, Characterizes the Politics of Climate Change. _Global Environmental Politics_ 20(4): 4-27.
+[[link](https://www.mitpressjournals.org/doi/full/10.1162/glep_a_00578)] 
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281045)]
+[featured in [The Atlantic](https://www.theatlantic.com/science/archive/2021/04/an-outdated-idea-is-still-shaping-climate-policy/618652/?utm_source=newsletter&utm_medium=email&utm_campaign=weekly-planet&utm_content=20210420&silverid=%25%25RECIPIENT_ID%25%25&utm_term=The%20Weekly%20Planet), [_Bloomberg_](https://www.bloomberg.com/news/articles/2020-12-15/all-politics-is-local-including-climate-politics){target="_blank"}, [_New York Magazine_](https://nymag.com/intelligencer/article/climate-change-after-pandemic.html), 
+[New York Times](https://www.nytimes.com/2021/02/26/podcasts/ezra-klein-podcast-leah-stokes-david-wallace-wells-tra.html)]
+
+Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen. 2020. Inequality in Policy Implementation: Caste and Electrification in Rural India. _Journal of Public Policy_: 1-29.
+[[link](https://www.cambridge.org/core/journals/journal-of-public-policy/article/abs/inequality-in-policy-implementation-caste-and-electrification-in-rural-india/1B09DD4CBFDA51D12337F858CECB096D)]
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3537542)]
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KBTHZH)]
+
+Bayer, Patrick and Michaël Aklin. 2020. The European Union Emissions Trading System reduced CO2 emissions despite low prices. _Proceedings of the National Academy of Sciences_ 117(16): 8804-8812.
+[[link (ungated)](https://www.pnas.org/content/early/2020/04/01/1918128117){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataverse/eused){target="_blank"}] 
+[featured in [_Ars Technica_](https://arstechnica.com/science/2020/04/eu-carbon-trading-market-has-reduced-emissions-despite-low-carbon-prices/){target="_blank"}] 
+
+Aklin, Michaël and Johannes Urpelainen. 2020. Trials and Tribulations: Lost Energy Access Gains in Rural India. _Energy for Sustainable Development_ 55: 190-200.
+[[link](https://www.sciencedirect.com/science/article/pii/S0973082619312979){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIO9UV){target="_blank"}] 
+
+<!-- #### 2019 -->
+
+Rosenberg, Meital, Daniel Armanios, Michaël Aklin, and Paulina Jaramillo. 2019. Evidence of gender inequality in energy use from a mixed-methods study in India. _Nature Sustainability_ 3: 110-118.
+[[link](https://www.nature.com/articles/s41893-019-0447-3){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DRVBZY){target="_blank"}] 
+[featured in [_The Hindu_](https://www.thehindu.com/sci-tech/electrification-in-indian-households-benefits-men-more-than-women-study/article30400757.ece), 
+[_Times of India_](https://energy.economictimes.indiatimes.com/news/power/men-benefit-more-than-women-from-electrification-in-india/72962655){target="_blank"}, 
+[_Business Standard_](https://www.business-standard.com/article/pti-stories/electrification-in-indian-households-benefits-men-more-than-women-study-119122600264_1.html){target="_blank"}]
+
+Aklin, Michaël and Andreas Kern. 2019. “Moral Hazard and Financial Crises: Evidence from American Troop Deployments”. _International Studies Quarterly_ 63(1): 15-29.
+[[link](https://academic.oup.com/isq/article-abstract/63/1/15/5290056){target="_blank"}] 
+[featured in [_NPR_](http://www.npr.org/2015/11/10/454589085/the-best-laid-backup-plans){target="_blank"}]
+
+<!-- #### 2018 -->
+
+Aklin, Michaël. 2018. How Robust is the Renewable Energy Industry to Political Shocks? Evidence from the 2016 U.S. Elections. _Business and Politics_ 20(4): 523-552.
+[[link](https://www.cambridge.org/core/journals/business-and-politics/article/how-robust-is-the-renewable-energy-industry-to-political-shocks-evidence-from-the-2016-us-elections/CAE5D8F7A7FF21D86DC003B08ADB0FAE){target="_blank"}] 
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3237964){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9I106T){target="_blank"}]
+
+Aklin, Michaël, S.P. Harish, and Johannes Urpelainen. 2018. A Global Analysis of Progress in Household Electrification. _Energy Policy_ 122: 421-428.
+[[link](https://www.sciencedirect.com/science/article/pii/S030142151830466X){target="_blank"}] 
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3220460){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JE0EVI){target="_blank"}] 
+[[short article using this new dataset in _The Print_](https://theprint.in/opinion/how-indias-impressive-electrification-compares-with-south-asian-nations/115134/){target="_blank"}]
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2018. Economics of Household Technology Adoption in Developing Countries: Evidence from Solar Technology Adoption in Rural India. _Energy Economics_ 72: 35-46.
+[[link](https://www.sciencedirect.com/science/article/pii/S0140988318300690){target="_blank"}] 
+[[pre-print](https://ssrn.com/abstract=3144081){target="_blank"}] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HK7JJT){target="_blank"}]
+
+Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen. 2018. Social Acceptance of New Energy Technology in Developing Countries: A Framing Experiment in Rural India. _Energy Policy_ 113: 466-477.
+[[link](https://www.sciencedirect.com/science/article/pii/S0301421517307292){target="_blank"}]
+
+Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen. 2018. Geography, Community, Household: Adoption of Distributed Solar Power Across India”. _Energy for Sustainable Development_ 42: 54-63.
+[[link](https://www.sciencedirect.com/science/article/pii/S0973082617301266){target="_blank"}] 
+[[pre-print](https://ssrn.com/abstract=3045139){target="_blank"}]
+
+<!-- #### 2017 -->
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2017. Does Basic Energy Access Generate Socioeconomic Benefits? A Field Experiment with Off-Grid Solar Power in India. _Science Advances_ 3(5): e1602153.
+[[link](http://advances.sciencemag.org/content/3/5/e1602153/tab-article-info)] 
+[[replication package](https://dataverse.harvard.edu/dataverse.xhtml?alias=indiasolar)] 
+[featured in [_The Economist_](https://www.economist.com/news/science-and-technology/21722156-does-light-equal-enlightenment-cheap-illuminations-benefits-remote-areas-may),
+[_Reuters_](http://www.reuters.com/article/us-india-solar-scale-idUSKBN18R21U), 
+[_Economic Times_](http://economictimes.indiatimes.com/news/politics-and-nation/no-socioeconomic-benefits-in-rural-india-after-electrification/articleshow/58737403.cms), 
+[_Business Standard_](https://www.business-standard.com/article/economy-policy/no-evidence-of-socioeconomic-benefits-in-india-s-rural-communities-117051801445_1.html),
+[_SciDev_](https://www.scidev.net/asia-pacific/energy/news/solar-microgrids-insufficient-improve-rural-income-alternative-power-energy.html), 
+[_Mashable/Yahoo_](https://www.yahoo.com/news/india-apos-rural-solar-revolution-212659846.html)]
+
+
+<!-- #### 2016 -->
+
+Aklin, Michaël. 2016. Re-Exploring the Trade and Environment Nexus Through the Diffusion of Pollution. _Environmental and Resource Economics_ 64(4): 663-682.
+[[link](http://link.springer.com/article/10.1007/s10640-015-9893-1)] 
+[[replication package](replication/EARE2015ReplicationPackage.zip)]
+
+Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen, Karthik Ganesan, and Abishek Jain. 2016. Factors Affecting Household Satisfaction with Electricity Supply in Rural India. _Nature Energy_ 1: 1-6.
+[[link](https://doi.org/10.1038/nenergy.2016.170)] 
+[[replication package](https://dataverse.harvard.edu/dataverse/IndiaAccess)]
+
+<!-- #### 2015 -->
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2015. Quantifying Slum Electrification in India and Explaining Local Variation. _Energy_ 80(1): 203-212.
+[[link](http://www.sciencedirect.com/science/article/pii/S0360544214013188#)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TKSFIG)]
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2015. The Political Economy of Energy Access: Survey Evidence from India on State Intervention and Public Opinion. _Energy Research & Social Science_ 10: 250-258.
+[[link](http://www.sciencedirect.com/science/article/pii/S2214629615300128)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ANE5F6)]
+
+<!-- #### 2014 -->
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2014. Who Blames Corruption for the Poor Enforcement of Environmental Laws? Survey Evidence from Brazil. _Environmental Economics and Policy Studies_ 16(3): 241-262.
+[[link](http://link.springer.com/article/10.1007/s10018-014-0076-z)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CMNU0D)]
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2014. Information and Energy Policy Preferences: A Survey Experiment on Public Opinion About Electricity Pricing Reform in Rural India”. _Economics of Governance_ 15(4): 305-327.
+[[link](http://link.springer.com/article/10.1007/s10101-014-0146-5)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMSFUO)]
+
+Aklin, M. and J. Urpelainen. 2014. Perceptions of Scientific Dissent Undermine Public Support for Environmental Policy. _Environmental Science & Policy_ 38: 173-177.
+[[link](http://www.sciencedirect.com/science/article/pii/S1462901113002141)]
+
+Aklin, M. and J. Urpelainen. 2014. The Global Spread of Environmental Ministries: Domestic-International Interactions. _International Studies Quarterly_ 58(4): 764-780.
+[[link](http://onlinelibrary.wiley.com/doi/10.1111/isqu.12119/abstract)] 
+[[replication package](replication/ISQ2014ReplicationPackage.zip)]
+
+<!-- #### 2013 -->
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2013. Understanding Environmental Policy Preferences: New Evidence from Brazil. _Ecological Economics_ 94: 28-36.
+[[link](http://www.sciencedirect.com/science/article/pii/S092180091300181X)] 
+[[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MCGRF0)]
+
+Aklin, Michaël and Johannes Urpelainen. 2013. Debating Clean Energy: Frames, Counter Frames, and Audiences. _Global Environmental Change_ 23(5): 1225-1232.
+[[link](http://www.sciencedirect.com/science/article/pii/S095937801300054X)] 
+[[replication package](replication/GEC2013ReplicationPackage.zip)] 
+[[review in _Nature Climate Change_](http://www.nature.com/nclimate/journal/v3/n7/full/nclimate1939.html)]
+
+Aklin, Michaël and Johannes Urpelainen. 2013. Political Competition, Path Dependence, and the Strategy of Sustainable Energy Transitions. _American Journal of Political Science_ 57(3): 643-658.
+[[link](http://www.sciencedirect.com/science/article/pii/S092180091300181X)] 
+[[replication package](replication/AJPS2013ReplicationPackage.zip)]
+
+<br>
+
+
+## Chapters
+
+M. Aklin. "International Relations Theories and Climate Change Politics." in _Global Climate Policy_. Cambridge, MA: MIT Press, 2018.
+
+M. Aklin, E. Arias, E. Deniz, and B.P. Rosendorff. "Domestic Politics of Trade Policy." in _Emerging Trends in the Social and Behavioral Sciences_. Hoboken, NJ: John Wiley and Sons, 2015.
+
+<br>
+
+
+
+## Datasets
+
+[**Global Electrification Database**](https://dataverse.harvard.edu/dataverse/electrification). This database contains new cross-national data on household electrification. The data are available for 124 non-OECD countries, going back to 1960 for some countries (and sometimes even earlier), for a total of 1,065 observations. The data cover rural, urban, and aggregate electrification rates.
+
+For more details, see:
+Aklin, Michaël, S.P. Harish, and Johannes Urpelainen. 2018. A Global Analysis of Progress in Household Electrification. _Energy Policy_ 122: 421-428.
+[[link](https://www.sciencedirect.com/science/article/pii/S030142151830466X)] [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3220460)]
+
+<br>
+
+[**ACCESS**](https://dataverse.harvard.edu/dataverse/IndiaAccess). This dataset contains survey data on energy access. In total, 8,568 households from six large, energy-poor states from northern, central and eastern India were interviewed. Project jointly conducted with [CEEW](https://www.ceew.in/).
+
+For more details, see:
+Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen, Karthik Ganesan, and Abishek Jain. 2016. Factors Affecting Household Satisfaction with Electricity Supply in Rural India. _Nature Energy_ 1: 1-6.
+[[link](https://doi.org/10.1038/nenergy.2016.170)]
+
+<br>
+
+
+## Reports
+
+Sharma, Shruti, Tom Moerenhout, and Michaël Aklin. 2020. [How to Target Residential Electricity Subsidies in India](https://www.iisd.org/system/files/2020-09/target-residential-electricity-subsidies-india-step-2.pdf). Winnipeg and Geneva: IISD. 
+[featured in [Prabhat Khabar](https://www.prabhatkhabar.com/state/jharkhand/ranchi/subsidy-on-electricity-bill-in-jharkhand-60-percent-of-electricity-subsidy-amount-in-rich-peoples-account-srn), [Amar Ujala](https://www.amarujala.com/india-news/not-poor-the-well-being-is-getting-the-benefit-of-electricity-subsidy), [DW](https://www.dw.com/hi/%E0%A4%AC%E0%A4%BF%E0%A4%9C%E0%A4%B2%E0%A5%80-%E0%A4%B8%E0%A4%AC%E0%A5%8D%E0%A4%B8%E0%A4%BF%E0%A4%A1%E0%A5%80-%E0%A4%95%E0%A4%BE-%E0%A4%AB%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE-%E0%A4%95%E0%A4%BF%E0%A4%B8%E0%A5%87-%E0%A4%AE%E0%A4%BF%E0%A4%B2-%E0%A4%B0%E0%A4%B9%E0%A4%BE-%E0%A4%B9%E0%A5%88/a-55168920)]
+
+Aklin, Michaël. 2019. [Global Progress in Electrification](https://sais-isep.org/wp-content/uploads/2019/09/Aklin_PolicyBrief_final.pdf). ISEP Policy Brief 2019-2.
+
+Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2017. [Small off-Grid solar systems displace kerosene, but evidence for social and economic impact remain weak](https://sais-isep.org/wp-content/uploads/2019/09/ISEP_Brief1-Formatted.pdf). ISEP Policy Brief 2017-1.
+
+Jain, Abishek, Sunila Ray, Karthik Ganesan, Michaël Aklin, Chao-yo Cheng, and Johannes Urpelainen. 2015. [Access to Clean Cooking Energy and Electricity](http://www.indiaenvironmentportal.org.in/files/file/CEEW-ACCESS-Report.pdf). New Delhi: Council on Energy, Environment and Water.
+
+
+
+<br>
+
+## Media
+
+[Le mieux est l'ennemi du bien: les bienfaits de la loi sur le CO2 compensent ses carences](https://www.letemps.ch/opinions/mieux-lennemi-bien-bienfaits-loi-co2-compensent-carences), _Le Temps_, October 20, 2020.
+
+[Middle-Income Countries Big Winner from Off-Grid Energy. Who’s Next?](https://www.powerforall.org/insights/energy-policy/middle-income-countries-big-winner-grid-energy-whos-next) _Power for All_, November 22, 2018.
+
+[Six Nuclear Reactors Worth of Off-Grid Renewable Energy Deployed in Last 10 Years – But Sub-Saharan Africa Lagging](https://www.powerforall.org/insights/africa/six-nuclear-reactors-worth-of-grid-renewable-energy-deployed-last-10-years-sub-saharan-africa-lagging), _Power for All_, November 20, 2018.
+
+[How India’s impressive electrification compares with South Asian nations](https://theprint.in/opinion/how-indias-impressive-electrification-compares-with-south-asian-nations/115134/), _The Print_, September 13, 2018.
+
+[Off-grid power not a silver bullet for rural India](https://www.swissinfo.ch/eng/opinion_off-grid-power-not-a-silver-bullet-for-rural-india/43294158), _Swissinfo_, August 16, 2017.
+
+[Off-grid solar power and the future of rural electrification in India](http://www.ideasforindia.in/article.aspx?article=Off-grid-solar-power-and-the-future-of-rural-electrification-in-India), _Ideas for India_, July 17, 2017.
+
+[Can solar micro-grids deliver basic electricity access in Indian villages?](http://www.ideasforindia.in/article.aspx?article_id=1439), _Ideas for India_, April 17, 2015.
+
+[La Suisse doit reprendre l'initiative en Europe avec une politique énergétique proactive](http://www.letemps.ch/Page/Uuid/820c9ec2-604c-11e4-802c-cf45623830fa/La_Suisse_doit_reprendre_linitiative_en_Europe_avec_une_politique_\%C3\%A9nerg\%C3\%A9tique_proactive), _Le Temps_, October 31, 2014.
+
+[How (not) to talk about climate change](http://www.washingtonpost.com/blogs/monkey-cage/wp/2014/05/22/how-not-to-communicate-uncertainty-about-climate-change/), _Washington Post_ (Monkey Cage), May 22, 2014.
+
+
+
+

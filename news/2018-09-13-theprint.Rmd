@@ -1,0 +1,8 @@
+---
+title: "New article in The Print"
+author: "Michaël Aklin"
+date: 2018-09-13T00:00:00
+tags: ["India", "Energy"]
+---
+
+I wrote a short article in [_The Print_](https://theprint.in/opinion/how-indias-impressive-electrification-compares-with-south-asian-nations/115134/) comparing electrification rates in India with its neighbors. In short: India has been doing well, but so has the region in general. As India gets closer to universal electrification (and we aren't there yet, despite good progress), the focus needs to shift to improving quality of electricity provision. This will require to make the public and private industries operating in this area more sustainable. 

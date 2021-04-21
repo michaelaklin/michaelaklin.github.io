@@ -1,0 +1,16 @@
+---
+title: "Tribune dans le Temps"
+author: "Michaël Aklin"
+date: 2020-10-20T00:00:00
+categories: ["News"]
+tags: ["climate change", "carbon pricing"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+20 octobre 2020
+
+J'ai publié une tribune sur la nouvelle loi suisse sur le CO2 dans Le Temps, disponible [ici](https://www.letemps.ch/opinions/mieux-lennemi-bien-bienfaits-loi-co2-compensent-carences){target="_blank"}.
+
