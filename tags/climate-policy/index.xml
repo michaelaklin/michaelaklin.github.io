@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/climate-policy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/climate-policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>New paper in PNAS</title>
       <link>/news/2020-04-08-pnas/</link>

@@ -12,5 +12,5 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 April 21, 2021
 
-Over the last few weeks, the _Atlantic_ ([here](https://www.theatlantic.com/science/archive/2021/04/an-outdated-idea-is-still-shaping-climate-policy/618652/)), _Bloomberg_ ([here](https://www.bloomberg.com/news/articles/2020-12-15/all-politics-is-local-including-climate-politics)), the _New York Times_ ([here](https://www.nytimes.com/2021/02/26/podcasts/ezra-klein-podcast-leah-stokes-david-wallace-wells-tra.html)), and _New York Magazine_ ([here](https://nymag.com/intelligencer/article/climate-change-after-pandemic.html)) all covered my recent work with Matto Mildenberger. 
+Over the last few weeks, the _Atlantic_ ([here](https://www.theatlantic.com/science/archive/2021/04/an-outdated-idea-is-still-shaping-climate-policy/618652/)), _Bloomberg_ ([here](https://www.bloomberg.com/news/articles/2020-12-15/all-politics-is-local-including-climate-politics)), the _New York Times_ ([here](https://www.nytimes.com/2021/02/26/podcasts/ezra-klein-podcast-leah-stokes-david-wallace-wells-tra.html)), and _New York Magazine_ ([here](https://nymag.com/intelligencer/article/climate-change-after-pandemic.html)) all covered my recent work with Matto Mildenberger. Lot of interesting work and ideas developing in this area!
 

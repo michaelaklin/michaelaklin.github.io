@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>News coverage of my paper with Mildenberger</title>
       <link>/news/2021-04-21/</link>
@@ -15,19 +19,7 @@
       
       <guid>/news/2021-04-21/</guid>
       <description>April 21, 2021
-Over the last few weeks, the Atlantic (here), Bloomberg (here), the New York Times (here), and New York Magazine (here) all covered my recent work with Matto Mildenberger.</description>
-    </item>
-    
-    <item>
-      <title>Two papers out</title>
-      <link>/news/2021-02-13-copy/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/news/2021-02-13-copy/</guid>
-      <description>February 13, 2021
-Two new papers came out in the last couple of weeks.
-In the first, Kern, Negre, and I examine some of the side effects of central bank independence. We suspect that governments may respond to a loss of control over monetary policy (i.e. more independent central banks) with policies that are bad for inequality.
- Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality?</description>
+Over the last few weeks, the Atlantic (here), Bloomberg (here), the New York Times (here), and New York Magazine (here) all covered my recent work with Matto Mildenberger. Lot of interesting work and ideas developing in this area!</description>
     </item>
     
     <item>
@@ -179,6 +171,18 @@ Graduate courses
 International political economy of developing countries (PS 2543) (syllabus)
 Political economy of growth (PS 2543) (syllabus)
 Political research and analysis (PS 2030) (syllabus)</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>External links See also my Google Scholar and SSRN pages.
+
+ Books Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2018. Escaping the Energy Poverty Trap: When and How Governments Power the Lives of the Poor. Cambridge, MA: MIT Press. [buy] [reviews by Caitlin Robinson and Elizabeth Chatterjee]
+Aklin, Michaël and Johannes Urpelainen. 2018. Renewables: The Politics of a Global Energy Transition. Cambridge, MA: MIT Press. [buy] [reviews by Foreign Affairs, Varun Sivaram, Josh Busby, and Dustin Mulvaney]</description>
     </item>
     
   </channel>
