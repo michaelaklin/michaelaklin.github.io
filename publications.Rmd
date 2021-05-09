@@ -8,37 +8,6 @@ output:
 ---
 
 
-```{r include=FALSE}
-# This is some R code to include the reference list from my bib library
-# See https://arxiv.org/pdf/1403.2036.pdf for all options of ReadBib and RefManageR
-
-library(RefManageR)
-
-# To remove "In"
-custom <- RefManageR:::MakeBibLaTeX()
-with(custom,
-custom$fmtJournal <- function(s){
-                                if (length(s$journaltitle)) {
-                                    res <- emph(cleanupLatex(s$journaltitle))
-                                    if (length(s$journalsubtitle)) 
-                                        res <- paste(addPeriod(res), emph(cleanupLatex(s$journalsubtitle)))
-                                    return(res)
-                                }
-                                else if (!is.null(s$journal)) {
-                                    emph(cleanupLatex(s$journal))
-                                }
-})
-
-
-tools::bibstyle("custom", custom)
-BibOptions(bib.style = "custom")
-
-# Old way to call the references:
-#print(bib[c("Aklinetal2018c")],.opts=list(max.names=5,check.entries= FALSE))
-
-bib = ReadBib("~/Dropbox/BibLibrary.bib", check=FALSE)
-```
-
 ## External links
 
 See also my [Google Scholar](https://scholar.google.com/citations?user=5YTiqsgAAAAJ&hl=en)
@@ -69,7 +38,7 @@ Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independ
 [[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
 
 Aklin, Michaël, Julia Gray, and Eric Arias. Forthcoming. Inflation and Mass Preferences Over Currency Policy. _Economics & Politics_.
-
+ 
 Aklin, Michaël. 2021. The Off-Grid Catch-22: Effective Institutions as a Prerequisite for the Global Deployment of Distributed Renewable Power. _Energy Research & Social Science_ 72: 101830. 
 [[link](https://www.sciencedirect.com/science/article/pii/S2214629620304059?dgcid=author)]
 [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3717818)] 
