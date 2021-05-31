@@ -9,7 +9,7 @@ output:
 
 
 ## External links
-
+ 
 See also my [Google Scholar](https://scholar.google.com/citations?user=5YTiqsgAAAAJ&hl=en)
 and [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1513601) pages.
 
@@ -23,14 +23,15 @@ Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2018. _Esc
 Aklin, Michaël and Johannes Urpelainen. 2018. _Renewables: The Politics of a Global Energy Transition_. Cambridge, MA: MIT Press.
 [[buy](https://mitpress.mit.edu/books/renewables){target="_blank"}] [reviews by [_Foreign Affairs_](https://www.foreignaffairs.com/reviews/capsule-review/2018-10-16/renewables-politics-global-energy-transition){target="_blank"}, [Varun Sivaram](https://link.springer.com/article/10.1057%2Fs41312-018-0046-8){target="_blank"}, [Josh Busby](https://link.springer.com/epdf/10.1057/s41312-018-0064-6?author_access_token=b0uIVtcaLzlKqjqqeHARPlxOt48VBPO10Uv7D6sAgHv4ApbIOdhUVjg9RCUmYLhGqIJpz0X6O_Z8JYI_Etsdw9vOuyhCVMMBYyp0GxwwjJOwavbQ2OW36xDwn5miI5Zc6jcVZrkfV1QDICZEjXFxvQ%3D%3D){target="_blank"}, and [Dustin Mulvaney](https://link.springer.com/article/10.1057/s41312-018-0066-4){target="_blank"}]
 
-<br>
-
+<br> 
+ 
 
 ## Articles
 
 <!-- #### Forthcoming -->
 
-
+Aklin, Michaël. Forthcoming. Do High Electricity Bills Undermine Public Support for Renewables? Evidence from the European Union. _Energy Policy_.
+[[pre-print](http://ssrn.com/abstract=3857130)] 
 
 <!-- #### 2021 -->
 
@@ -70,7 +71,7 @@ Aklin, Michaël and Johannes Urpelainen. 2020. Trials and Tribulations: Lost Ene
 [[link](https://www.sciencedirect.com/science/article/pii/S0973082619312979){target="_blank"}] 
 [[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIO9UV){target="_blank"}] 
 
-<!-- #### 2019 -->
+<!-- #### 2019 --> 
 
 Rosenberg, Meital, Daniel Armanios, Michaël Aklin, and Paulina Jaramillo. 2019. Evidence of gender inequality in energy use from a mixed-methods study in India. _Nature Sustainability_ 3: 110-118.
 [[link](https://www.nature.com/articles/s41893-019-0447-3){target="_blank"}] 
