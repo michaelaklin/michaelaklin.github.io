@@ -32,18 +32,25 @@ Aklin, Michaël and Johannes Urpelainen. 2018. _Renewables: The Politics of a Gl
 
 Aklin, Michaël. Forthcoming. Do High Electricity Bills Undermine Public Support for Renewables? Evidence from the European Union. _Energy Policy_.
 [[pre-print](http://ssrn.com/abstract=3857130)] 
+[[replication package](https://github.com/michaelaklin/replicationfiles)]
 
+Aklin, Michaël. 2021. The Off-Grid Catch-22: Effective Institutions as a Prerequisite for the Global Deployment of Distributed Renewable Power. _Energy Research & Social Science_ 72: 101830. 
+[[link](https://www.sciencedirect.com/science/article/pii/S2214629620304059?dgcid=author)]
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3717818)] 
+[[replication package](https://github.com/michaelaklin/replicationfiles/blob/main/Aklin_ERSS_ReplicationPackage.zip)]
+[[post for Power For All](https://www.powerforall.org/insights/middle-income-countries-big-winner-grid-energy-whos-next)]
+
+Pelz, Setu, Michaël Aklin, and Johannes Urpelainen. 2021. Electrification and productive use among micro- and small-enterprises in rural North India. _Energy Policy_ 156: 112401.
+[[link](https://www.sciencedirect.com/science/article/abs/pii/S0301421521002718)]
 <!-- #### 2021 -->
 
 Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality? _World Bank Policy Research Working Paper_ 9522. 
 [[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
 
+Aklin, Michaël, Brian Blankenship, Vagisha Nandan, and Johannes Urpelainen. The Great Equalizer: Inequality in Tribal Energy Access and Policies to Address It. _Energy Research & Social Science_.
+[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3854840)]
+
 Aklin, Michaël, Julia Gray, and Eric Arias. Forthcoming. Inflation and Mass Preferences Over Currency Policy. _Economics & Politics_.
- 
-Aklin, Michaël. 2021. The Off-Grid Catch-22: Effective Institutions as a Prerequisite for the Global Deployment of Distributed Renewable Power. _Energy Research & Social Science_ 72: 101830. 
-[[link](https://www.sciencedirect.com/science/article/pii/S2214629620304059?dgcid=author)]
-[[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3717818)] 
-[[replication package](https://github.com/michaelaklin/replicationfiles/blob/main/Aklin_ERSS_ReplicationPackage.zip)]
 
 Aklin, Michaël and Andreas Kern. 2021. The Side Effects of Central Bank Independence. _American Journal of Political Science_.
 [[link](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12580)]
