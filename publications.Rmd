@@ -32,7 +32,7 @@ Aklin, Michaël and Johannes Urpelainen. 2018. _Renewables: The Politics of a Gl
 
 <!-- #### 2021 -->
 
-Aklin, Michaël. 2021 Do High Electricity Bills Undermine Public Support for Renewables? Evidence from the European Union. _Energy Policy_. 156: 112400.
+Aklin, Michaël. 2021. Do High Electricity Bills Undermine Public Support for Renewables? Evidence from the European Union. _Energy Policy_. 156: 112400.
 [[link](https://www.sciencedirect.com/science/article/abs/pii/S0301421521002706?dgcid=rss_sd_all)]
 [[pre-print](http://ssrn.com/abstract=3857130)] 
 [[replication package](https://github.com/michaelaklin/replicationfiles)]
