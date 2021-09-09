@@ -89,6 +89,7 @@ Aklin, Michaël and Johannes Urpelainen. 2020. Trials and Tribulations: Lost Ene
 Rosenberg, Meital, Daniel Armanios, Michaël Aklin, and Paulina Jaramillo. 2019. Evidence of gender inequality in energy use from a mixed-methods study in India. _Nature Sustainability_ 3: 110-118.
 [[link](https://www.nature.com/articles/s41893-019-0447-3){target="_blank"}] 
 [[replication package](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DRVBZY){target="_blank"}] 
+[Winner of the [2021 Research Impact on Practice Award](https://www.nbs.net/articles/r-research-impact-on-practice-award-winners) by the Academy of Management and Network for Business Sustainability]
 [featured in [_The Hindu_](https://www.thehindu.com/sci-tech/electrification-in-indian-households-benefits-men-more-than-women-study/article30400757.ece), 
 [_Times of India_](https://energy.economictimes.indiatimes.com/news/power/men-benefit-more-than-women-from-electrification-in-india/72962655){target="_blank"}, 
 [_Business Standard_](https://www.business-standard.com/article/pti-stories/electrification-in-indian-households-benefits-men-more-than-women-study-119122600264_1.html){target="_blank"}]
@@ -132,7 +133,8 @@ Aklin, Michaël, Patrick Bayer, S.P. Harish, and Johannes Urpelainen. 2017. Does
 [_Economic Times_](http://economictimes.indiatimes.com/news/politics-and-nation/no-socioeconomic-benefits-in-rural-india-after-electrification/articleshow/58737403.cms), 
 [_Business Standard_](https://www.business-standard.com/article/economy-policy/no-evidence-of-socioeconomic-benefits-in-india-s-rural-communities-117051801445_1.html),
 [_SciDev_](https://www.scidev.net/asia-pacific/energy/news/solar-microgrids-insufficient-improve-rural-income-alternative-power-energy.html), 
-[_Mashable/Yahoo_](https://www.yahoo.com/news/india-apos-rural-solar-revolution-212659846.html)]
+[_Mashable/Yahoo_](https://www.yahoo.com/news/india-apos-rural-solar-revolution-212659846.html),
+[_New Scientist_](https://www.sciencedirect.com/science/article/abs/pii/S0262407917324946)]
 
 
 <!-- #### 2016 -->
