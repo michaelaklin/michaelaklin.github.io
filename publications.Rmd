@@ -30,6 +30,13 @@ Aklin, Michaël and Johannes Urpelainen. 2018. _Renewables: The Politics of a Gl
 
 <!-- #### Forthcoming -->
 
+<!-- #### 2022 -->
+
+Aklin, Michaël, Julia Gray, and Eric Arias. 2022. Inflation and Mass Preferences Over Currency Policy. _Economics & Politics_ 34(1): 5-40.
+[[link](https://onlinelibrary.wiley.com/doi/full/10.1111/ecpo.12176?casa_token=4h3zD_Bn9ucAAAAA%3AXhrbpeUgWX-t9U0ynVsXS27MxOK2uFP1Z6HiD8WHec87Xn0Ta4BQx0oiktFXzwmu67cKPlPT7Kvc7Q)]
+
+Pelz, Setu, Michaël Aklin, and Johannes Urpelainen. 2022. Supply preferences and productive electricity use constraints among micro and small enterprises in Bihar, India. _Energy for Sustainable Development_.
+
 <!-- #### 2021 -->
 
 Aklin, Michaël. 2021. Do High Electricity Bills Undermine Public Support for Renewables? Evidence from the European Union. _Energy Policy_. 156: 112400.
@@ -49,16 +56,16 @@ Pelz, Setu, Michaël Aklin, and Johannes Urpelainen. 2021. Electrification and p
 Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality? _World Bank Policy Research Working Paper_ 9522. 
 [[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
 
+Aklin, Michaël, Namrata Chindarkar, Johannes Urpelainen, Abhishek Jain, and Karthik Ganesan. 2021. [The Hedonic Treadmill: Electricity Access in India Has Increased, But So Have Expectations](https://www.sciencedirect.com/science/article/pii/S0301421521002615?casa_token=JJ4jVeQaS1kAAAAA:pIkgug9D0Vs1VHtraR0ULQcxYhQ3WPpk1unxZ7lteATZmwUwJwjhPf0VGyw-yuLsC2MRT7C9. _Energy Policy_ 156: 112391.
+
 Aklin, Michaël and Johannes Urpelainen. 2021. The Evolving Role of Solar-Based Lighting Solutions in Rural India: Global Lessons for Distributed Renewables. Energy for Sustainable Development 163: 113-118.
 [[link](https://www.sciencedirect.com/science/article/pii/S0973082621000697)]
 
-Aklin, Michaël, Brian Blankenship, Vagisha Nandan, and Johannes Urpelainen. The Great Equalizer: Inequality in Tribal Energy Access and Policies to Address It. _Energy Research & Social Science_.
+Aklin, Michaël, Brian Blankenship, Vagisha Nandan, and Johannes Urpelainen. The Great Equalizer: Inequality in Tribal Energy Access and Policies to Address It. _Energy Research & Social Science_ 79: 102132.
+[[link](https://www.sciencedirect.com/science/article/pii/S2214629621002255?casa_token=bAKIpggDzu0AAAAA:5yZyJ29U70NK8GengQkfy4Ip44clMw7FpLKBm5U0cHYKqvkifB3nnVIlPSFBRP6Mw_kAYgltWQ)]
 [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3854840)]
 
-Aklin, Michaël, Julia Gray, and Eric Arias. 2021. Inflation and Mass Preferences Over Currency Policy. _Economics & Politics_.
-[[link](https://onlinelibrary.wiley.com/doi/full/10.1111/ecpo.12176?casa_token=4h3zD_Bn9ucAAAAA%3AXhrbpeUgWX-t9U0ynVsXS27MxOK2uFP1Z6HiD8WHec87Xn0Ta4BQx0oiktFXzwmu67cKPlPT7Kvc7Q)]
-
-Aklin, Michaël and Andreas Kern. 2021. The Side Effects of Central Bank Independence. _American Journal of Political Science_.
+Aklin, Michaël and Andreas Kern. 2021. The Side Effects of Central Bank Independence. _American Journal of Political Science_ 65(4): 971-987.
 [[link](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12580)]
 [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2799220)] 
 
@@ -72,7 +79,7 @@ Aklin, Michaël, Chao-yo Cheng, Johannes Urpelainen. 2021. Inequality in Policy 
 Aklin, Michaël and Matto Mildenberger. 2020. Prisoners of the Wrong Dilemma: Why Distributive Conflict, Not Collective Action, Characterizes the Politics of Climate Change. _Global Environmental Politics_ 20(4): 4-27.
 [[link](https://www.mitpressjournals.org/doi/full/10.1162/glep_a_00578)] 
 [[pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3281045)]
-[featured in [The Atlantic](https://www.theatlantic.com/science/archive/2021/04/an-outdated-idea-is-still-shaping-climate-policy/618652/?utm_source=newsletter&utm_medium=email&utm_campaign=weekly-planet&utm_content=20210420&silverid=%25%25RECIPIENT_ID%25%25&utm_term=The%20Weekly%20Planet), [_Bloomberg_](https://www.bloomberg.com/news/articles/2020-12-15/all-politics-is-local-including-climate-politics){target="_blank"}, [_New York Magazine_](https://nymag.com/intelligencer/article/climate-change-after-pandemic.html), 
+[featured in [L'Actualité](https://lactualite.com/environnement/climat-attention-a-la-cible/), [The Atlantic](https://www.theatlantic.com/science/archive/2021/04/an-outdated-idea-is-still-shaping-climate-policy/618652/?utm_source=newsletter&utm_medium=email&utm_campaign=weekly-planet&utm_content=20210420&silverid=%25%25RECIPIENT_ID%25%25&utm_term=The%20Weekly%20Planet), [_Bloomberg_](https://www.bloomberg.com/news/articles/2020-12-15/all-politics-is-local-including-climate-politics){target="_blank"}, [_New York Magazine_](https://nymag.com/intelligencer/article/climate-change-after-pandemic.html), 
 [New York Times](https://www.nytimes.com/2021/02/26/podcasts/ezra-klein-podcast-leah-stokes-david-wallace-wells-tra.html)]
 
 Bayer, Patrick and Michaël Aklin. 2020. The European Union Emissions Trading System reduced CO2 emissions despite low prices. _Proceedings of the National Academy of Sciences_ 117(16): 8804-8812.
@@ -186,7 +193,7 @@ Aklin, Michaël and Johannes Urpelainen. 2013. Debating Clean Energy: Frames, Co
 [[review in _Nature Climate Change_](http://www.nature.com/nclimate/journal/v3/n7/full/nclimate1939.html)]
 
 Aklin, Michaël and Johannes Urpelainen. 2013. Political Competition, Path Dependence, and the Strategy of Sustainable Energy Transitions. _American Journal of Political Science_ 57(3): 643-658.
-[[link](http://www.sciencedirect.com/science/article/pii/S092180091300181X)] 
+[[link](https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12002)] 
 [[replication package](replication/AJPS2013ReplicationPackage.zip)]
 
 <br>
