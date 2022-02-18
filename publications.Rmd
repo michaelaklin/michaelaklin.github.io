@@ -56,7 +56,7 @@ Pelz, Setu, Michaël Aklin, and Johannes Urpelainen. 2021. Electrification and p
 Aklin, Michaël, Andreas Kern, and Mario Negre. 2021. Does Central Bank Independence Increase Inequality? _World Bank Policy Research Working Paper_ 9522. 
 [[link (ungated)](http://documents1.worldbank.org/curated/en/422091611242015974/pdf/Does-Central-Bank-Independence-Increase-Inequality.pdf)]
 
-Aklin, Michaël, Namrata Chindarkar, Johannes Urpelainen, Abhishek Jain, and Karthik Ganesan. 2021. [The Hedonic Treadmill: Electricity Access in India Has Increased, But So Have Expectations](https://www.sciencedirect.com/science/article/pii/S0301421521002615?casa_token=JJ4jVeQaS1kAAAAA:pIkgug9D0Vs1VHtraR0ULQcxYhQ3WPpk1unxZ7lteATZmwUwJwjhPf0VGyw-yuLsC2MRT7C9. _Energy Policy_ 156: 112391.
+Aklin, Michaël, Namrata Chindarkar, Johannes Urpelainen, Abhishek Jain, and Karthik Ganesan. 2021. The Hedonic Treadmill: Electricity Access in India Has Increased, But So Have Expectations. _Energy Policy_ 156: 112391. [[link](https://www.sciencedirect.com/science/article/pii/S0301421521002615?casa_token=JJ4jVeQaS1kAAAAA:pIkgug9D0Vs1VHtraR0ULQcxYhQ3WPpk1unxZ7lteATZmwUwJwjhPf0VGyw-yuLsC2MRT7C9)]
 
 Aklin, Michaël and Johannes Urpelainen. 2021. The Evolving Role of Solar-Based Lighting Solutions in Rural India: Global Lessons for Distributed Renewables. Energy for Sustainable Development 163: 113-118.
 [[link](https://www.sciencedirect.com/science/article/pii/S0973082621000697)]
