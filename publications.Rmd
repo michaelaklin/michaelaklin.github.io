@@ -227,7 +227,7 @@ Aklin, Michaël and Johannes Urpelainen. 2013. Political Competition, Path Depen
 <!-- <br> -->
 
 
-## Report highlights
+**Report highlights**
 
 Sharma, Shruti, Tom Moerenhout, Michaël Aklin, and Kavya Bajaj. 2021. [How to Target LPG Subsidies in India: Evaluating policy options in Jharkhand](https://www.iisd.org/system/files/2021-04/target-lpg-subsidies-india-jharkhand.pdf). IISD/GSI Report.
 
@@ -244,7 +244,7 @@ Jain, Abishek, Sunila Ray, Karthik Ganesan, Michaël Aklin, Chao-yo Cheng, and J
 
 <br>
 
-## Media
+**Media**
 
 [Le mieux est l'ennemi du bien: les bienfaits de la loi sur le CO2 compensent ses carences](https://www.letemps.ch/opinions/mieux-lennemi-bien-bienfaits-loi-co2-compensent-carences), _Le Temps_, October 20, 2020.
 
