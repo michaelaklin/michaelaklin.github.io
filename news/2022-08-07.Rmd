@@ -1,0 +1,15 @@
+---
+title: "New note for Brookings"
+author: "Michaël Aklin"
+date: 2022-08-07T00:00:00
+categories: ["News"]
+tags: ["just transition"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+August 7, 2022
+
+Johannes Urpelainen and I published a note for Brookings about the need for federal action to help fossil fuel workers find new jobs -- a key element of a just transition. The paper is [here](https://www.brookings.edu/research/enable-a-just-transition-for-american-fossil-fuel-workers-through-federal-action/).
