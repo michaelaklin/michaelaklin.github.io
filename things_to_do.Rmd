@@ -1,0 +1,77 @@
+---
+title: "Things to do in Pittsburgh"
+# The style lets h2 be underlined. Not done in CSS because it would make home page uglier.
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+<br> 
+
+## Restaurants
+
+**Near Wyndham**:
+
+Butterjoint (modern American), [link](https://butterjoint.com/)
+
+The Cafe Carnegie (only during lunch hours, inside the Carnegie Museum), [location](https://goo.gl/maps/hxaioEVPtCHU1XWk8), [link](https://thecafecarnegie.com/menu.html)
+
+Spirits and Tales (modern American, inside The Oaklander hotel, top floor), [location](https://goo.gl/maps/yXbj1SxXrLNamyat7), [link](https://www.spiritsandtales.com/)
+
+**Short car/bus ride**
+
+Apteka (central and eastern European vegan), [location](https://goo.gl/maps/egw4kbN8283x4vTa7), [link](https://aptekapgh.com/)
+
+Casbah (mediterranean), [location](https://goo.gl/maps/ktao7oJvzWmeKgqs6), [link](https://www.casbah.kitchen/)
+
+DiAnoia (Italian), [location](https://g.page/DiAnoiasEatery?share), [link](https://www.dianoiaseatery.com/menu/)
+
+Everyday Noodle (Chinese), [location](https://g.page/EverydayNoodles?share), [link](http://everydaynoodles.net/)
+
+Morcilla (gourmet tapas), [location](https://goo.gl/maps/KGNRR4BkrseK7YZXA), [link](https://www.morcillapittsburgh.com/menus)
+
+Umami (Japanese), [location](https://g.page/UmamiPgh?share), [link](https://umamipgh.com/)
+
+## Bars and breweries
+
+**Near Wyndham**:
+
+The Porch, [location](https://goo.gl/maps/99bST48D8KNq9hCm8), [link](https://www.dineattheporch.com/schenley/menu)
+
+**Short car/bus ride**
+
+Arsenal Cider, [location](https://goo.gl/maps/jugb9mUkfU2B2gZq9), [link](http://www.arsenalciderhouse.com/)
+
+Cinderlands Warehouse, [location](https://g.page/CinderlandsWarehouse?share), [link](https://www.cinderlands.com/)
+
+Con Alma (notice: smaller), [location](https://goo.gl/maps/UQLXfkey87B9pUuTA), [link](http://conalmapgh.com/)
+
+Eleventh Hour Brewing, [location](https://goo.gl/maps/b8UNXn5RmtHgfHv19), [link](http://www.11thhourbrews.com/)
+
+Kelly's Lounge, [location](https://goo.gl/maps/69jfyzjgYcgyASJP7), [link](https://kellysbarlounge.com/)
+
+Trace Brewing, [location](https://g.page/tracebrewing?share), [link](http://www.tracebloomfield.com/)
+
+Urban Tap (uninteresting, but spacious), [location](https://g.page/urban-tap-pittsburgh?share), [link](https://www.theurbantap.com/menu)
+
+
+## Culture and kids
+
+Arsenal Bowl (old school bowling), [location](https://g.page/ArsenalBowl?share), [link](http://arsenalbowl.com/)
+
+Carnegie Museum of Art, [location](https://goo.gl/maps/7QwuZSa5TA9D6a2TA) [link](https://cmoa.org/)
+
+Carnegie Museum of Natural History, [location](https://goo.gl/maps/a7vBBAvHAdqykxdC7), [link](https://carnegiemnh.org/)
+
+Children's Museum of Pittsburgh, [location](https://g.page/pittsburghkids?share), [link](https://www.pittsburghkids.org/)
+
+Phipps Conservatory and Botanical Garden, [location](https://goo.gl/maps/zNcF3Tw2zEfLj6QG8), [link](https://phipps.conservatory.org/visit-and-explore/visit/cafe-phipps/)
+
+Pittsburgh Zoo, [location](https://g.page/pghzoo?share), [link](https://www.pittsburghzoo.org/)
+
+Warhol Museum, [location](https://g.page/thewarholmuseum?share), [link](https://www.warhol.org/)
+
+Walk through one of the many parks of the city: Schenley (closest to the conference), Frick, Highland Park, or Allegheny Cemetery 
+
+
