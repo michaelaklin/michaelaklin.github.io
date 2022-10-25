@@ -9,15 +9,21 @@ output:
 
 <br> 
 
+Please reach out to Michaël Aklin (aklin@pitt.edu) for any questions about things to do in Pittsburgh.
+
+<br>
+
 ## Restaurants
 
-**Near Wyndham**:
+**Near Wyndham Hotel**
 
-Butterjoint (modern American), [link](https://butterjoint.com/)
+Butterjoint (modern American), [location](https://goo.gl/maps/Zk4w23vb9S2MZscZ9), [link](https://butterjoint.com/)
 
 The Cafe Carnegie (only during lunch hours, inside the Carnegie Museum), [location](https://goo.gl/maps/hxaioEVPtCHU1XWk8), [link](https://thecafecarnegie.com/menu.html)
 
 Spirits and Tales (modern American, inside The Oaklander hotel, top floor), [location](https://goo.gl/maps/yXbj1SxXrLNamyat7), [link](https://www.spiritsandtales.com/)
+
+<br>
 
 **Short car/bus ride**
 
@@ -33,11 +39,15 @@ Morcilla (gourmet tapas), [location](https://goo.gl/maps/KGNRR4BkrseK7YZXA), [li
 
 Umami (Japanese), [location](https://g.page/UmamiPgh?share), [link](https://umamipgh.com/)
 
+<br>
+
 ## Bars and breweries
 
-**Near Wyndham**:
+**Near Wyndham Hotel**
 
 The Porch, [location](https://goo.gl/maps/99bST48D8KNq9hCm8), [link](https://www.dineattheporch.com/schenley/menu)
+
+<br>
 
 **Short car/bus ride**
 
@@ -45,7 +55,7 @@ Arsenal Cider, [location](https://goo.gl/maps/jugb9mUkfU2B2gZq9), [link](http://
 
 Cinderlands Warehouse, [location](https://g.page/CinderlandsWarehouse?share), [link](https://www.cinderlands.com/)
 
-Con Alma (notice: smaller), [location](https://goo.gl/maps/UQLXfkey87B9pUuTA), [link](http://conalmapgh.com/)
+Con Alma (notice: small), [location](https://goo.gl/maps/UQLXfkey87B9pUuTA), [link](http://conalmapgh.com/)
 
 Eleventh Hour Brewing, [location](https://goo.gl/maps/b8UNXn5RmtHgfHv19), [link](http://www.11thhourbrews.com/)
 
@@ -55,6 +65,7 @@ Trace Brewing, [location](https://g.page/tracebrewing?share), [link](http://www.
 
 Urban Tap (uninteresting, but spacious), [location](https://g.page/urban-tap-pittsburgh?share), [link](https://www.theurbantap.com/menu)
 
+<br>
 
 ## Culture and kids
 
@@ -74,4 +85,9 @@ Warhol Museum, [location](https://g.page/thewarholmuseum?share), [link](https://
 
 Walk through one of the many parks of the city: Schenley (closest to the conference), Frick, Highland Park, or Allegheny Cemetery 
 
+<br>
+
+## Bus
+
+The bus fare is $2.75 (flat rate; day pass: $7). You can either pay cash (no change) or use an app (details here: [https://www.rideprt.org/fares-and-passes/mobileticket/](https://www.rideprt.org/fares-and-passes/mobileticket/)).
 
