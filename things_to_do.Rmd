@@ -1,5 +1,5 @@
 ---
-title: "Things to do in Pittsburgh"
+title: "IPES 2022: Things to do in Pittsburgh"
 # The style lets h2 be underlined. Not done in CSS because it would make home page uglier.
 output:
   html_document:
@@ -7,19 +7,27 @@ output:
     toc_depth: 3
 ---
 
-<br> 
+<!-- <br>  -->
 
-Please reach out to Michaël Aklin (aklin@pitt.edu) for any questions about things to do in Pittsburgh.
+<!-- Please reach out to Michaël Aklin (aklin@pitt.edu) for any questions about things to do in Pittsburgh. -->
+
 
 <br>
 
+
 ## Map
 
-Here's a map of the campus, including the Wyndham Hotel (conference) and Phipps Conservatory (dinner) and a few other interesting spots in the neighborhood: [link](https://www.google.com/maps/d/edit?mid=1hzJY0-k0Bp005_33NEIDqKyvrJld0_Q&usp=sharing).
+Here's a map that includes links to all restaurants and bars listed below: [link](https://www.google.com/maps/d/embed?mid=1hzJY0-k0Bp005_33NEIDqKyvrJld0_Q&ehbc=2E312F).
+
+<!-- https://www.google.com/maps/d/edit?mid=1hzJY0-k0Bp005_33NEIDqKyvrJld0_Q&usp=sharing -->
 
 <br>
 
 ## Restaurants
+
+Reservations are **highly** recommended for restaurants. 
+
+<br>
 
 **Near Wyndham Hotel**
 
@@ -33,6 +41,8 @@ Spirits and Tales (modern American, inside The Oaklander hotel, top floor), [loc
 
 **Short car/bus ride**
 
+Acorn (modern American), [location](https://g.page/acornpgh?share), [link](http://acornpgh.com/dinner-menu/)
+
 Apteka (central and eastern European vegan), [location](https://goo.gl/maps/egw4kbN8283x4vTa7), [link](https://aptekapgh.com/)
 
 Casbah (mediterranean), [location](https://goo.gl/maps/ktao7oJvzWmeKgqs6), [link](https://www.casbah.kitchen/)
@@ -42,6 +52,10 @@ DiAnoia (Italian), [location](https://g.page/DiAnoiasEatery?share), [link](https
 Everyday Noodle (Chinese), [location](https://g.page/EverydayNoodles?share), [link](http://everydaynoodles.net/)
 
 Morcilla (gourmet tapas), [location](https://goo.gl/maps/KGNRR4BkrseK7YZXA), [link](https://www.morcillapittsburgh.com/menus)
+
+Soju (Korean), [location](https://g.page/SojuPgh?share), [link](https://simonchough.wixsite.com/sojupgh/menus)
+
+Station (modern American), [location](https://g.page/StationPgh?share), [link](http://www.station4744.com/#home)
 
 Umami (Japanese), [location](https://g.page/UmamiPgh?share), [link](https://umamipgh.com/)
 
@@ -65,15 +79,21 @@ Con Alma (notice: small), [location](https://goo.gl/maps/UQLXfkey87B9pUuTA), [li
 
 Eleventh Hour Brewing, [location](https://goo.gl/maps/b8UNXn5RmtHgfHv19), [link](http://www.11thhourbrews.com/)
 
+Independent Brewing Company, [location](https://goo.gl/maps/pESq6416v5JWoFG28), [link](http://www.independentpgh.com/)
+
 Kelly's Lounge, [location](https://goo.gl/maps/69jfyzjgYcgyASJP7), [link](https://kellysbarlounge.com/)
 
 Lorelei, [location](https://goo.gl/maps/akK5AR3w2rgtWEcj7), [link](https://lorelei-to-go.square.site/)
 
 Maggie's Farm Rum, [location](https://goo.gl/maps/CBkB2NSTfF4DEHT18), [link](http://www.maggiesfarmrum.com/)
 
+Shadyside Hideaway Bar, [location](https://goo.gl/maps/aj9XEEZLdq1fpPKj8), [link](https://m.facebook.com/profile.php?id=100054259310199&_rdr)
+
 Trace Brewing, [location](https://g.page/tracebrewing?share), [link](http://www.tracebloomfield.com/)
 
-Urban Tap (uninteresting, but spacious), [location](https://g.page/urban-tap-pittsburgh?share), [link](https://www.theurbantap.com/menu)
+Two Frays Brewery, [location](https://goo.gl/maps/HmCGi1D7bHUXK5ks5), [link](https://www.twofraysbrewery.com/menu)
+
+Urban Tap (larger, sports bar), [location](https://g.page/urban-tap-pittsburgh?share), [link](https://www.theurbantap.com/menu)
 
 <br>
 
@@ -81,15 +101,19 @@ Urban Tap (uninteresting, but spacious), [location](https://g.page/urban-tap-pit
 
 Arsenal Bowl (old school bowling), [location](https://g.page/ArsenalBowl?share), [link](http://arsenalbowl.com/)
 
-Carnegie Museum of Art, [location](https://goo.gl/maps/7QwuZSa5TA9D6a2TA) [link](https://cmoa.org/)
+Carnegie Museum of Art, [location](https://goo.gl/maps/7QwuZSa5TA9D6a2TA), [link](https://cmoa.org/)
 
 Carnegie Museum of Natural History, [location](https://goo.gl/maps/a7vBBAvHAdqykxdC7), [link](https://carnegiemnh.org/)
 
 Children's Museum of Pittsburgh, [location](https://g.page/pittsburghkids?share), [link](https://www.pittsburghkids.org/)
 
+Mattress Factory (contemporary art), [location](https://goo.gl/maps/KZQvky6hm7CNWJ2t5), [link](http://mattress.org/)
+
 Phipps Conservatory and Botanical Garden, [location](https://goo.gl/maps/zNcF3Tw2zEfLj6QG8), [link](https://phipps.conservatory.org/visit-and-explore/visit/cafe-phipps/)
 
 Pittsburgh Zoo, [location](https://g.page/pghzoo?share), [link](https://www.pittsburghzoo.org/)
+
+Randyland (funky colorful house), [location](https://g.page/RandyLand?share), [link](https://randy.land/)
 
 Warhol Museum, [location](https://g.page/thewarholmuseum?share), [link](https://www.warhol.org/)
 
@@ -100,4 +124,8 @@ Walk through one of the many parks of the city: Schenley (closest to the confere
 ## Bus
 
 The bus fare is $2.75 (flat rate; day pass: $7). You can either pay cash (no change) or use an app (details here: [https://www.rideprt.org/fares-and-passes/mobileticket/](https://www.rideprt.org/fares-and-passes/mobileticket/)).
+
+<br>
+
+<br>
 
