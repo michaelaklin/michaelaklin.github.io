@@ -1,0 +1,17 @@
+---
+title: "PhD position opening at EPFL"
+author: "Michaël Aklin"
+date: 2022-12-01T00:00:00
+categories: ["News"]
+tags: ["epfl"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+December 1, 2022
+
+A PhD student position is available with the Chair of Policy & Sustainability (PASU), a new Chair led by Professor Michaël Aklin and located in the College of Management at EPFL (Swiss Federal Institute of Technology in Lausanne, Switzerland). The starting date is September 15, 2023.
+
+See [here](https://www.epfl.ch/about/working/cdm-phd-position-in-policy-sustainability-pasu/) for more details and how to apply. 
