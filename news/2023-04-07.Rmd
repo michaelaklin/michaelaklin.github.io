@@ -1,0 +1,15 @@
+---
+title: "New York Times"
+author: "Michaël Aklin"
+date: 2023-04-07T00:00:00
+categories: ["News"]
+tags: ["media"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+April 4, 2023
+
+My work with Matto Mildenberger was discussed by Robinson Meyer in the _New York Times_ ([here](https://www.nytimes.com/2023/04/07/opinion/electric-vehicles-europe-trade-wars.html)).

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>media on Michaël Aklin</title>
+    <link>/tags/media/</link>
+    <description>Recent content in media on Michaël Aklin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New York Times</title>
+      <link>/news/2023-04-07/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-04-07/</guid>
+      <description>April 4, 2023
+My work with Matto Mildenberger was discussed by Robinson Meyer in the New York Times (here).</description>
+    </item>
+    
+  </channel>
+</rss>
